@@ -1,53 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#conteiner{
+    display: flex;
+    padding: 78px;
+    height: 100%;
+    margin: 0 auto;
+}
+#img-baoounao{
+    background-image: url('../css/img/Design_sem_nome__4_-removebg-preview.png');
+    height: 80px;
+    width: 130px;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+}
+#caixas-usu{
+width: 230px;
+height: 180px;
 
 
-    * {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    }
+}
+    #Usuario,#Senha {
+        width: 95.8%;
+        height: 30px;
+        padding: 5px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border: 0;
+        background-color: #F5F5F5;
+        margin-top: 10px;
+}
+#Senha {
+    margin-top: 10px;
+}
 
+#Entrar {
+    width: 95.8%;
+    height: 40px;
+    border-radius: 35px;
+    padding: 5px;
+    margin: 20px 5px;
+    background-color: #e41d3e;
+    border: 0;
+    color: #F5F5F5;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+hr {
+    width: 99%;
+}
+
+#logoif {
+    background-image: url('../css/img/ifmt.png');
+    background-size: cover;
+    width: 180px;
+    height: 50px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 380px){
 
     #conteiner {
         width: 100%;
         height: 100%;
         display: flex;
+        padding: 0;
     }
-
-    #logns {
-        background-color: #ffffff;
-        height: 990px;
-        width: 50%;
-    }
-
-    #img-bomounao {
-        background-image: url('../css/img/Design_sem_nome__4_-removebg-preview.png');
-        height: 130px;
+#img-baoounao{
+    background-image: url('../css/img/Design_sem_nome__4_-removebg-preview.png');
+    height: 130px;
         width: 230px;
         background-size: cover;
         margin: 0 auto;
         margin-top: 180PX;
-    }
-
-    #conteinercamps {
-        display: flex;
-        width: 700px;
-        height: 300px;
-        margin: 0 auto;
-    }
-
-    #campos {
-
-        height: 200px;
-        width: 500px;
-        padding: 60px;
-        margin: 0 auto;
-    }
+}
+#caixas-usu{
+    height: 200px;
+    width: 500px;
+    padding: 60px;
+    margin: 0 auto;
 
 
-    #campos input {
-        outline: 0;
-    }
-
+}
+#campos input {
+    outline: 0;
+}
     #Usuario,#Senha {
         width: 100%;
         height: 50px;
@@ -56,40 +96,42 @@
         border-top-right-radius: 8px;
         border: 0;
         background-color: #F5F5F5;
-    }
+}
+#Senha {
+    margin-top: 20px;
+}
 
-    #Senha {
-        margin-top: 20px;
-    }
+#Entrar {
+  
+    width: 100%;
+    height: 60px;
+    border-radius: 35px;
+    padding: 5px;
+    margin: 20px 5px;
+    background-color: #e41d3e;
+    border: 0;
+    color: #F5F5F5;
+    font-size: 20px;
+    cursor: pointer;
+}
 
-    #Entrar {
+hr {
+    width: 101.5%;
+}
 
-        width: 100%;
-        height: 60px;
-        border-radius: 35px;
-        padding: 5px;
-        margin: 20px 5px;
-        background-color: #e41d3e;
-        border: 0;
-        color: #F5F5F5;
-        font-size: 20px;
-        cursor: pointer;
-    }
+#logoif {
+    background-image: url('../css/img/ifmt.png');
+    background-size: cover;
+    width: 180px;
+    height: 50px;
+    margin: 0 auto;
+}
+#conteiner2img{
+    background-image: url('../css/img/WhatsApp\ Image\ 2024-02-14\ at\ 23.22.56.jpeg');
+    background-size: cover;
+    width: 150vh;
+    height: 100vh;
 
-    hr {
-        width: 508px;
-    }
+}
 
-    #if {
-        background-image: url('../css/img/ifmt.png');
-        margin: 0 auto;
-        width: 290px;
-        height: 80px;
-        background-size: cover;
-    }
-
-    #imgem-mulher {
-        background-image: url('../css/img/WhatsApp\ Image\ 2024-02-14\ at\ 23.22.56.jpeg');
-        background-size: cover;
-        width: 50%;
-    }
+}
